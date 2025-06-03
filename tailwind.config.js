@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   mode: "jit",
+  darkMode: "selector" /* Class ,media, selector dia kora jay
+  tailwind class e lekhar somoy dark:property dia kora jabe */,
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {

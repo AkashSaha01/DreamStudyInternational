@@ -6,3 +6,34 @@ html,
 body {
   @apply text-primary;
 }
+
+/* Custom styles */
+@layer base {
+  h1 {
+    @apply text-3xl font-bold;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-800;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600;
+  }
+
+  .card {
+    @apply p-6 bg-white shadow rounded-lg;
+  }
+}
+
+@layer utilities {
+  .rotate-15 {
+    transform: rotate(15deg);
+  }
+
+  .scale-120 {
+    transform: scale(1.2);
+  }
+}
