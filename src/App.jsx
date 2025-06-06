@@ -20,7 +20,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-white py-4 px-6 md:px-20 flex justify-between items-center w-full md:w-[85%] mx-auto">
+      <div className="bg-white py-6 px-6 md:px-20 flex justify-between items-center w-full md:w-[85%] mx-auto">
         <div>
           <img src="/dsi-logo.png" alt="logo" className="w-80" />
         </div>
@@ -50,6 +50,21 @@ function App() {
             <h2 className="text-lg">Location:</h2>
             <h3>Gulshan 2</h3>
           </div>
+        </div>
+      </div>
+      <div className="bg-primary w-[80%] flex mx-auto rounded-lg  justify-between  px-10">
+        <div className="flex items-center gap-6 text-white font-semibold text-lg px-10 py-6">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Countries</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div className="flex flex-col justify-center align-middle items-center">
+          <button className="bg-secondary text-lg font-bold text-white rounded-lg px-6 py-3">
+            Apply Now
+          </button>
         </div>
       </div>
     </div>
