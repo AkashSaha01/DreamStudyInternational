@@ -1,5 +1,11 @@
 import { Camera } from "lucide-react";
-import { Facebook, Youtube, Linkedin, Instagram } from "lucide-react";
+import {
+  Facebook,
+  Youtube,
+  Linkedin,
+  Instagram,
+  NotebookPen,
+} from "lucide-react";
 
 import { Phone, Mail, MapPin } from "lucide-react";
 
@@ -79,7 +85,7 @@ function App() {
       >
         <div className="flex justify-center py-10 px-4 w-[80%] mx-auto gap-5">
           <div className="w-[55%]">
-            <img src="/hero-left.jpg"></img>
+            <img src="/hero-left.jpg" className="shadow-lg"></img>
           </div>
           <div className="w-[35%] ">
             <div className="bg-secondary px-6 py-4 rounded-t-lg">
@@ -129,6 +135,27 @@ function App() {
               </button>
             </form>
           </div>
+        </div>
+      </div>
+
+      <div className="w-screen bg-blue-50 mx-auto py-4 flex flex-col ">
+        <div className="py-6 mx-auto">
+          <img src="/one-stop-1024x133.png"></img>
+        </div>
+        <div className="grid grid-cols-4 grid-rows-2 gap-4 px-6 w-[80%] mx-auto">
+          <div className="flex flex-col text-xl font-bold text-secondary mx-auto ">
+            <NotebookPen />
+            <h2 className="mx-auto text-black items-center">
+              Eligibility Assesment
+            </h2>
+          </div>
+          <div className="bg-gray-200 p-4">2</div>
+          <div className="bg-gray-200 p-4">3</div>
+          <div className="bg-gray-200 p-4">4</div>
+          <div className="bg-gray-200 p-4">5</div>
+          <div className="bg-gray-200 p-4">6</div>
+          <div className="bg-gray-200 p-4">7</div>
+          <div className="bg-gray-200 p-4">8</div>
         </div>
       </div>
     </div>
