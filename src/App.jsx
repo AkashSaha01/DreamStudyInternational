@@ -1,8 +1,7 @@
 import { Camera } from "lucide-react";
-import { Facebook } from "lucide-react";
-import { Linkedin } from "lucide-react";
-import { Instagram } from "lucide-react";
-import { Youtube } from "lucide-react";
+import { Facebook, Youtube, Linkedin, Instagram } from "lucide-react";
+
+import { Phone, Mail, MapPin } from "lucide-react";
 
 function App() {
   return (
@@ -18,6 +17,38 @@ function App() {
             <Instagram />
             <Linkedin />
             <Youtube />
+          </div>
+        </div>
+      </div>
+      <div className="bg-white py-4 px-6 md:px-20 flex justify-between items-center w-full md:w-[85%] mx-auto">
+        <div>
+          <img src="/dsi-logo.png" alt="logo" className="w-80" />
+        </div>
+        <div className="flex justify-between gap-5">
+          <div className="flex justify-center flex-col text-center align-middle text-lg">
+            <Phone className="font-extrabold text-secondary w-10 h-auto" />
+          </div>
+          <div className="flex flex-col font-bold">
+            <h2 className="text-lg">Call Us:</h2>
+            <h3>+880 14066 99551-4</h3>
+          </div>
+        </div>
+        <div className="flex justify-between gap-5">
+          <div className="flex justify-center flex-col text-center align-middle text-lg">
+            <Mail className="font-extrabold text-secondary w-10 h-auto" />
+          </div>
+          <div className="flex flex-col font-bold">
+            <h2 className="text-lg">Email Us:</h2>
+            <h3>dreamstudyinternational@gmail.com</h3>
+          </div>
+        </div>
+        <div className="flex justify-between gap-5">
+          <div className="flex justify-center flex-col text-center align-middle text-lg">
+            <MapPin className="font-extrabold text-secondary w-10 h-auto" />
+          </div>
+          <div className="flex flex-col font-bold">
+            <h2 className="text-lg">Location:</h2>
+            <h3>Gulshan 2</h3>
           </div>
         </div>
       </div>
