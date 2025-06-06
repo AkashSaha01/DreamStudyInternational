@@ -67,6 +67,70 @@ function App() {
           </button>
         </div>
       </div>
+      <div>
+        <img
+          src="/dsi-logo.png"
+          className="mx-auto px-1 py-6 w-64 h-auto"
+        ></img>
+      </div>
+      <div
+        className="bg-cover bg-center bg-no-repeat h-auto w-[100%]"
+        style={{ backgroundImage: "url('/bg-hero.jpg')" }}
+      >
+        <div className="flex justify-center py-10 px-4 w-[80%] mx-auto gap-5">
+          <div className="w-[55%]">
+            <img src="/hero-left.jpg"></img>
+          </div>
+          <div className="w-[35%] ">
+            <div className="bg-secondary px-6 py-4 rounded-t-lg">
+              <h1 className="text-white text-2xl font-bold">Apply Now!</h1>
+            </div>
+            <form className="space-y-4 bg-white p-6 ro rounded-b-lg shadow-lg">
+              <div className="flex items-center border rounded-lg px-4 py-3">
+                <input
+                  type="text"
+                  placeholder="Name"
+                  className="w-full outline-none text-gray-900 font-bold"
+                />
+              </div>
+
+              <div className="flex items-center border rounded-lg px-4 py-3">
+                <input
+                  type="text"
+                  placeholder="Phone Number"
+                  className="w-full outline-none text-gray-900 font-bold"
+                />
+              </div>
+
+              <div className="flex items-center border rounded-lg px-4 py-3">
+                <select className="w-full outline-none text-gray-900 bg-white font-bold">
+                  <option value="" className="text-gray-700 font-bold">
+                    Last Education:
+                  </option>
+                  <option value="ssc">SSC</option>
+                  <option value="hsc">HSC</option>
+                  <option value="bachelor">Bachelor</option>
+                  <option value="masters">Masters</option>
+                </select>
+              </div>
+
+              <div className="flex items-center border rounded-lg px-4 py-3">
+                <input
+                  type="text"
+                  placeholder="Preferred Country"
+                  className="w-full outline-none text-gray-900 font-bold"
+                />
+              </div>
+              <button
+                type="submit"
+                className="w-full bg-secondary text-white font-bold py-3 rounded-lg shadow-md "
+              >
+                Register
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
