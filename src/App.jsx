@@ -1,4 +1,13 @@
-import { Camera } from "lucide-react";
+import {
+  Banknote,
+  Camera,
+  FileUser,
+  Landmark,
+  Plane,
+  Receipt,
+  ScrollText,
+  SquarePen,
+} from "lucide-react";
 import {
   Facebook,
   Youtube,
@@ -142,20 +151,81 @@ function App() {
         <div className="py-6 mx-auto">
           <img src="/one-stop-1024x133.png"></img>
         </div>
-        <div className="grid grid-cols-4 grid-rows-2 gap-4 px-6 w-[80%] mx-auto">
-          <div className="flex flex-col text-xl font-bold text-secondary mx-auto ">
-            <NotebookPen />
-            <h2 className="mx-auto text-black items-center">
-              Eligibility Assesment
+        <div className="grid grid-cols-4 grid-rows-2  p-6 w-[90%] mx-auto ">
+          <div className="w-80 flex flex-col text-xl font-semibold text-secondary mx-auto hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg">
+            <div className="items-center align-middle mx-auto p-3 text-xl">
+              <NotebookPen className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
+            </div>
+            <h2 className="mx-auto text-black items-center align-middle group-hover:text-secondary transition-colors duration-300">
+              Eligibility Assessment
             </h2>
+            <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
           </div>
-          <div className="bg-gray-200 p-4">2</div>
-          <div className="bg-gray-200 p-4">3</div>
-          <div className="bg-gray-200 p-4">4</div>
-          <div className="bg-gray-200 p-4">5</div>
-          <div className="bg-gray-200 p-4">6</div>
-          <div className="bg-gray-200 p-4">7</div>
-          <div className="bg-gray-200 p-4">8</div>
+          <div className="w-80 flex flex-col text-xl font-semibold text-secondary mx-auto hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg">
+            <div className="items-center align-middle mx-auto p-3 text-xl">
+              <Landmark className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
+            </div>
+
+            <h2 className="mx-auto text-black items-center align-middle group-hover:text-secondary transition-colors duration-300">
+              University & Program Selection
+            </h2>
+            <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
+          </div>
+          <div className="w-80 flex flex-col text-xl font-semibold text-secondary mx-auto hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg">
+            <div className="items-center align-middle mx-auto p-3 text-xl">
+              <Receipt className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
+            </div>
+            <h2 className="mx-auto text-black items-center align-middle group-hover:text-secondary transition-colors duration-300">
+              Scholarship Application
+            </h2>
+            <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
+          </div>
+          <div className="w-80 flex flex-col text-xl font-semibold text-secondary mx-auto hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg">
+            <div className="items-center align-middle mx-auto p-3 text-xl">
+              <FileUser className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
+            </div>
+            <h2 className="mx-auto text-black items-center align-middle group-hover:text-secondary transition-colors duration-300">
+              Sponsor Document Support
+            </h2>
+            <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
+          </div>
+
+          <div className="w-80 flex flex-col text-xl font-semibold text-secondary mx-auto hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg">
+            <div className="items-center align-middle mx-auto p-3 text-xl">
+              <Banknote className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
+            </div>
+            <h2 className="mx-auto text-black items-center align-middle group-hover:text-secondary transition-colors duration-300">
+              Bank Statement Support
+            </h2>
+            <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
+          </div>
+          <div className="w-80 flex flex-col text-xl font-semibold text-secondary mx-auto hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg">
+            <div className="items-center align-middle mx-auto p-3 text-xl">
+              <SquarePen className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
+            </div>
+            <h2 className="mx-auto text-black items-center align-middle group-hover:text-secondary transition-colors duration-300">
+              SOP Letter Writting
+            </h2>
+            <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
+          </div>
+          <div className="w-80 flex flex-col text-xl font-semibold text-secondary mx-auto hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg">
+            <div className="items-center align-middle mx-auto p-3 text-xl">
+              <ScrollText className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
+            </div>
+            <h2 className="mx-auto text-black items-center align-middle group-hover:text-secondary transition-colors duration-300">
+              Visa Application Support
+            </h2>
+            <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
+          </div>
+          <div className="w-80 flex flex-col text-xl font-semibold text-secondary mx-auto hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg">
+            <div className="items-center align-middle mx-auto p-3 text-xl">
+              <Plane className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
+            </div>
+            <h2 className="mx-auto text-black group-hover:text-secondary transition-colors duration-300">
+              Pre-Departure Information
+            </h2>
+            <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-x-150 transition-transform duration-300"></div>
+          </div>
         </div>
       </div>
     </div>
