@@ -7,6 +7,7 @@ import {
   Receipt,
   ScrollText,
   SquarePen,
+  Building2,
 } from "lucide-react";
 import {
   Facebook,
@@ -14,13 +15,14 @@ import {
   Linkedin,
   Instagram,
   NotebookPen,
+  MessageCircleHeart,
 } from "lucide-react";
 
 import { Phone, Mail, MapPin } from "lucide-react";
 
 function App() {
   return (
-    <div className="m-0 p-0">
+    <div className="m-0 p-0 max-w-100">
       <div className="bg-primary px-10 m-0 w-full flex justify-between">
         <h2 className="text-white p-4 font-semibold">
           We're Leading Educational Consultancy in Bangladesh.
@@ -225,6 +227,91 @@ function App() {
               Pre-Departure Information
             </h2>
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-x-150 transition-transform duration-300"></div>
+          </div>
+        </div>
+      </div>
+
+      <div className="bg-blue-100 w-screen py-10 flex justify-between px-10 mx-auto">
+        <div className="flex flex-col gap-8 w-[26%] text-lg px-3">
+          <img src="/dsi-logo.png" className="w-60 h-auto"></img>
+          <h3>
+            We are renowned education consultancy for prospective students who
+            would like to study in CANADA, UK, USA, Australia, Sweden,
+            Netherlands, Denmark & other European Countries.
+          </h3>
+          <div className="flex gap-2 text-secondary">
+            <Facebook />
+            <Linkedin />
+            <Instagram />
+            <Youtube />
+          </div>
+        </div>
+        <div className="w-[20%] flex flex-col gap-8 py-4">
+          <h2 className="text-black font-bold  text-xl">Sitemap</h2>
+          <div>
+            <ul class="space-y-3">
+              <li class="flex items-center">
+                <div class="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                <span class="text-gray-700">Home</span>
+              </li>
+              <li class="flex items-center">
+                <div class="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                <span class="text-gray-700">About</span>
+              </li>
+              <li class="flex items-center">
+                <div class="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                <span class="text-gray-700">Services</span>
+              </li>
+              <li class="flex items-center">
+                <div class="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                <span class="text-gray-700">Countries</span>
+              </li>
+              <li class="flex items-center">
+                <div class="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                <span class="text-gray-700">Contact</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="w-[20%] flex flex-col gap-8 py-4">
+          <h2 className="text-black font-bold  text-xl">Countries</h2>
+          <div>
+            <ul class="space-y-3">
+              <li class="flex items-center">
+                <div class="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                <span class="text-gray-700">Australia</span>
+              </li>
+              <li class="flex items-center">
+                <div class="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                <span class="text-gray-700">UK</span>
+              </li>
+              <li class="flex items-center">
+                <div class="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                <span class="text-gray-700">USA</span>
+              </li>
+              <li class="flex items-center">
+                <div class="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                <span class="text-gray-700">Canada</span>
+              </li>
+              <li class="flex items-center">
+                <div class="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                <span class="text-gray-700">New Zealand</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="bg-white shadow-lg rounded-lg py-4 w-[30%]">
+          <div className="flex flex-col gap-4 px-4 py-5">
+            <Building2 className="text-secondary w-20  h-auto" />
+            <div className="flex justify-start gap-3">
+              <MapPin className="text-secondary w-12 h-auto" />
+              Gulshan-02: House-12B, Lift-04, Flat-4A, Kamal Attaturk Avenue,
+              Gulshan-02, Dhaka-1212.
+            </div>
+            <div className="flex justify-start gap-3">
+              <MessageCircleHeart className="text-green-600 w-08 h-auto" />
+              WhatsApp: +880 14066 99551-4
+            </div>
           </div>
         </div>
       </div>
