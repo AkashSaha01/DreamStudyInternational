@@ -161,11 +161,11 @@ function App() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-6 w-[95%] mx-auto">
-          <div className="flex flex-col text-xl font-semibold text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
+          <div className="dark flex flex-col text-xl font-semibold text-secondary dark:bg-gray-700 hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
             <div className="items-center mx-auto p-3 text-xl">
               <NotebookPen className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
             </div>
-            <h2 className="mx-auto text-black text-center group-hover:text-secondary transition-colors duration-300">
+            <h2 className="mx-auto text-black text-center dark:text-white group-hover:text-secondary transition-colors duration-300">
               Eligibility Assessment
             </h2>
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
@@ -181,11 +181,11 @@ function App() {
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
           </div>
 
-          <div className="flex flex-col text-xl font-semibold text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
+          <div className="dark flex flex-col text-xl font-semibold dark:bg-gray-700 text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
             <div className="items-center mx-auto p-3 text-xl">
               <Receipt className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
             </div>
-            <h2 className="mx-auto text-black text-center group-hover:text-secondary transition-colors duration-300">
+            <h2 className="mx-auto text-black text-center dark:text-white group-hover:text-secondary transition-colors duration-300">
               Scholarship Application
             </h2>
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
@@ -201,11 +201,11 @@ function App() {
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
           </div>
 
-          <div className="flex flex-col text-xl font-semibold text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
+          <div className="dark flex flex-col text-xl font-semibold text-secondary dark:bg-gray-700 hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
             <div className="items-center mx-auto p-3 text-xl">
               <Banknote className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
             </div>
-            <h2 className="mx-auto text-black text-center group-hover:text-secondary transition-colors duration-300">
+            <h2 className="dark:text-white mx-auto text-black text-center group-hover:text-secondary transition-colors duration-300">
               Bank Statement Support
             </h2>
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
@@ -221,11 +221,11 @@ function App() {
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
           </div>
 
-          <div className="flex flex-col text-xl font-semibold text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
+          <div className="dark flex flex-col text-xl font-semibold text-secondary dark:bg-gray-700 hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
             <div className="items-center mx-auto p-3 text-xl">
               <ScrollText className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
             </div>
-            <h2 className="mx-auto text-black text-center group-hover:text-secondary transition-colors duration-300">
+            <h2 className="dark:text-white mx-auto text-black text-center group-hover:text-secondary transition-colors duration-300">
               Visa Application Support
             </h2>
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
