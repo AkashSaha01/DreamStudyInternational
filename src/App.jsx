@@ -242,62 +242,64 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-blue-100 w-full py-10 px-4 md:px-10">
-        <div className="flex flex-col md:flex-row flex-wrap justify-between gap-8 mx-auto">
-          <div className="flex flex-col gap-6 md:w-[45%] lg:w-[25%] text-lg px-3">
-            <img src="/dsi-logo.png" className="w-48 h-auto" alt="DSI Logo" />
-            <h3>
-              We are renowned education consultancy for prospective students who
-              would like to study in CANADA, UK, USA, Australia, Sweden,
-              Netherlands, Denmark & other European Countries.
-            </h3>
-            <div className="flex gap-3 text-secondary">
-              <Facebook />
-              <Linkedin />
-              <Instagram />
-              <Youtube />
-            </div>
-          </div>
-
-          <div className="md:w-[45%] lg:w-[20%] flex flex-col gap-6 py-4">
-            <h2 className="text-black font-bold text-xl">Sitemap</h2>
-            <ul className="space-y-3">
-              {["Home", "About", "Services", "Countries", "Contact"].map(
-                (item) => (
-                  <li key={item} className="flex items-center">
-                    <div className="w-2 h-2 bg-secondary rounded-full mr-3"></div>
-                    <span className="text-gray-700">{item}</span>
-                  </li>
-                )
-              )}
-            </ul>
-          </div>
-
-          <div className="md:w-[45%] lg:w-[20%] flex flex-col gap-6 py-4">
-            <h2 className="text-black font-bold text-xl">Countries</h2>
-            <ul className="space-y-3">
-              {["Australia", "UK", "USA", "Canada", "New Zealand"].map(
-                (country) => (
-                  <li key={country} className="flex items-center">
-                    <div className="w-2 h-2 bg-secondary rounded-full mr-3"></div>
-                    <span className="text-gray-700">{country}</span>
-                  </li>
-                )
-              )}
-            </ul>
-          </div>
-
-          <div className="bg-white w-full shadow-lg rounded-lg py-4 px-4 md:px-6 lg:w-[30%] ">
-            <div className="flex flex-col gap-4">
-              <Building2 className="text-secondary w-16 h-auto" />
-              <div className="flex items-start gap-3 text-sm">
-                <MapPin className="text-secondary w-8 h-8" />
-                Gulshan-02: House-12B, Lift-04, Flat-4A, Kamal Attaturk Avenue,
-                Gulshan-02, Dhaka-1212.
+      <div className="bg-blue-100  mx-auto py-10 px-4 md:px-10">
+        <div className="w-[90%] mx-auto">
+          <div className="flex flex-col md:flex-row flex-wrap justify-between gap-8 mx-auto">
+            <div className="flex flex-col gap-6 md:w-[45%] lg:w-[20%] text-lg px-3">
+              <img src="/dsi-logo.png" className="w-48 h-auto" alt="DSI Logo" />
+              <h3>
+                We are renowned education consultancy for prospective students
+                who would like to study in CANADA, UK, USA, Australia, Sweden,
+                Netherlands, Denmark & other European Countries.
+              </h3>
+              <div className="flex gap-3 text-secondary">
+                <Facebook />
+                <Linkedin />
+                <Instagram />
+                <Youtube />
               </div>
-              <div className="flex items-start gap-3 text-sm">
-                <MessageCircleHeart className="text-green-600 w-6 h-6" />
-                WhatsApp: +880 14066 99551-4
+            </div>
+
+            <div className="md:w-[45%] lg:w-[20%] flex flex-col gap-6 py-4">
+              <h2 className="text-black font-bold text-xl">Sitemap</h2>
+              <ul className="space-y-3">
+                {["Home", "About", "Services", "Countries", "Contact"].map(
+                  (item) => (
+                    <li key={item} className="flex items-center">
+                      <div className="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                      <span className="text-gray-700">{item}</span>
+                    </li>
+                  )
+                )}
+              </ul>
+            </div>
+
+            <div className="md:w-[45%] lg:w-[20%] flex flex-col gap-6 py-4">
+              <h2 className="text-black font-bold text-xl">Countries</h2>
+              <ul className="space-y-3">
+                {["Australia", "UK", "USA", "Canada", "New Zealand"].map(
+                  (country) => (
+                    <li key={country} className="flex items-center">
+                      <div className="w-2 h-2 bg-secondary rounded-full mr-3"></div>
+                      <span className="text-gray-700">{country}</span>
+                    </li>
+                  )
+                )}
+              </ul>
+            </div>
+
+            <div className="bg-white w-full shadow-lg rounded-lg py-4 px-4 md:px-6 lg:w-[30%] ">
+              <div className="flex flex-col gap-4">
+                <Building2 className="text-secondary w-16 h-auto" />
+                <div className="flex items-start gap-3 text-sm">
+                  <MapPin className="text-secondary w-8 h-8" />
+                  Gulshan-02: House-12B, Lift-04, Flat-4A, Kamal Attaturk
+                  Avenue, Gulshan-02, Dhaka-1212.
+                </div>
+                <div className="flex items-start gap-3 text-sm">
+                  <MessageCircleHeart className="text-green-600 w-6 h-6" />
+                  WhatsApp: +880 14066 99551-4
+                </div>
               </div>
             </div>
           </div>
