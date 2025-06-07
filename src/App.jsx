@@ -315,6 +315,22 @@ function App() {
           </div>
         </div>
       </div>
+      <div className="bg-primary w-screen mx-auto">
+        <div className="flex justify-between p-3 w-[85%] mx-auto">
+          <div className="text-white font-semibold">
+            © 2023 Dream Study Int.. Designed By *hirebirds Team.
+          </div>
+          <div>
+            <div class="flex items-center space-x-8">
+              <span class="text-white font-medium">About</span>
+              <div class="w-2 h-2 bg-secondary rounded-full"></div>
+              <span class="text-white font-medium">FAQ</span>
+              <div class="w-2 h-2 bg-secondary rounded-full"></div>
+              <span class="text-white font-medium">Contact</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
