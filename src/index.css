@@ -9,31 +9,20 @@ body {
 
 /* Custom styles */
 @layer base {
-  h1 {
-    @apply text-3xl font-bold;
-  }
-
   body {
     @apply bg-gray-50 text-gray-800;
   }
 }
 
 @layer components {
-  .btn {
-    @apply px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600;
-  }
-
-  .card {
-    @apply p-6 bg-white shadow rounded-lg;
+  .form_submit_btn {
+    @apply w-full bg-secondary text-white font-bold py-4 rounded-lg shadow-md text-xl;
   }
 }
 
 @layer utilities {
-  .rotate-15 {
-    transform: rotate(15deg);
-  }
-
-  .scale-120 {
-    transform: scale(1.2);
+  .dot-glow {
+    @apply w-3 h-3 rounded-full bg-secondary;
+    box-shadow: 0 0 5px theme("colors.secondary");
   }
 }

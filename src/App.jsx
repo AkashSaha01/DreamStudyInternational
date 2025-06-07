@@ -140,10 +140,7 @@ function App() {
                 />
               </div>
 
-              <button
-                type="submit"
-                className="w-full bg-secondary text-white font-bold py-3 rounded-lg shadow-md"
-              >
+              <button type="submit" className="form_submit_btn">
                 Register
               </button>
             </form>
@@ -313,9 +310,9 @@ function App() {
           <div>
             <div className="flex items-center space-x-4 sm:space-x-6 md:space-x-8">
               <span className="text-white font-medium">About</span>
-              <div className="w-2 h-2 bg-secondary rounded-full"></div>
+              <div className="dot-glow"></div>
               <span className="text-white font-medium">FAQ</span>
-              <div className="w-2 h-2 bg-secondary rounded-full"></div>
+              <div className="dot-glow"></div>
               <span className="text-white font-medium">Contact</span>
             </div>
           </div>
