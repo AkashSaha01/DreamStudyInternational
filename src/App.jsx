@@ -64,7 +64,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="bg-primary w-full flex flex-wrap justify-between items-center px-4 md:px-10 py-4">
+      <div className="sticky top-0 z-50 bg-primary w-full flex flex-wrap justify-between items-center px-4 md:px-10 py-4 lg:w-[80%] mx-auto rounded-lg">
         <div className="flex flex-wrap gap-4 text-white font-semibold text-sm md:text-lg">
           <a href="#">Home</a>
           <a href="#">About</a>
@@ -77,6 +77,7 @@ function App() {
           Apply Now
         </button>
       </div>
+
       <div>
         <img
           src="/dsi-logo.png"
@@ -89,7 +90,6 @@ function App() {
         style={{ backgroundImage: "url('/bg-hero.jpg')" }}
       >
         <div className="flex flex-col lg:flex-row justify-center items-center py-10 px-4 lg:w-[80%] mx-auto gap-5">
-          {/* Left image */}
           <div className="w-full lg:w-[55%]">
             <img
               src="/hero-left.jpg"
@@ -98,7 +98,6 @@ function App() {
             />
           </div>
 
-          {/* Form Section */}
           <div className="w-full lg:w-[35%]">
             <div className="bg-secondary px-6 py-4 rounded-t-lg">
               <h1 className="text-white text-2xl font-bold">Apply Now!</h1>
@@ -151,7 +150,7 @@ function App() {
           </div>
         </div>
       </div>
-      /** vdfkdnfdjffddddddfd*/
+
       <div className="w-screen bg-blue-50 mx-auto py-4 flex flex-col">
         <div className="py-6 mx-auto">
           <img
@@ -162,7 +161,6 @@ function App() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 p-6 w-[95%] mx-auto">
-          {/* Card 1 */}
           <div className="flex flex-col text-xl font-semibold text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
             <div className="items-center mx-auto p-3 text-xl">
               <NotebookPen className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
@@ -173,7 +171,6 @@ function App() {
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
           </div>
 
-          {/* Card 2 */}
           <div className="flex flex-col text-xl font-semibold text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
             <div className="items-center mx-auto p-3 text-xl">
               <Landmark className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
@@ -184,7 +181,6 @@ function App() {
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
           </div>
 
-          {/* Card 3 */}
           <div className="flex flex-col text-xl font-semibold text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
             <div className="items-center mx-auto p-3 text-xl">
               <Receipt className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
@@ -195,7 +191,6 @@ function App() {
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
           </div>
 
-          {/* Card 4 */}
           <div className="flex flex-col text-xl font-semibold text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
             <div className="items-center mx-auto p-3 text-xl">
               <FileUser className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
@@ -206,7 +201,6 @@ function App() {
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
           </div>
 
-          {/* Card 5 */}
           <div className="flex flex-col text-xl font-semibold text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
             <div className="items-center mx-auto p-3 text-xl">
               <Banknote className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
@@ -217,7 +211,6 @@ function App() {
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
           </div>
 
-          {/* Card 6 */}
           <div className="flex flex-col text-xl font-semibold text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
             <div className="items-center mx-auto p-3 text-xl">
               <SquarePen className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
@@ -228,7 +221,6 @@ function App() {
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
           </div>
 
-          {/* Card 7 */}
           <div className="flex flex-col text-xl font-semibold text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
             <div className="items-center mx-auto p-3 text-xl">
               <ScrollText className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
@@ -239,7 +231,6 @@ function App() {
             <div className="w-12 h-1 bg-blue-500 mx-auto mt-2 transform scale-x-0 group-hover:scale-150 transition-transform duration-300"></div>
           </div>
 
-          {/* Card 8 */}
           <div className="flex flex-col text-xl font-semibold text-secondary hover:bg-white hover:shadow-xl hover:scale-105 transition-all duration-300 cursor-pointer group p-4 rounded-lg bg-white">
             <div className="items-center mx-auto p-3 text-xl">
               <Plane className="w-16 h-auto group-hover:text-secondary transition-all duration-300" />
@@ -282,7 +273,6 @@ function App() {
             </ul>
           </div>
 
-          {/* Section 3: Countries */}
           <div className="md:w-[45%] lg:w-[20%] flex flex-col gap-6 py-4">
             <h2 className="text-black font-bold text-xl">Countries</h2>
             <ul className="space-y-3">
@@ -297,12 +287,11 @@ function App() {
             </ul>
           </div>
 
-          {/* Section 4: Address */}
           <div className="bg-white w-full shadow-lg rounded-lg py-4 px-4 md:px-6 lg:w-[30%] ">
             <div className="flex flex-col gap-4">
               <Building2 className="text-secondary w-16 h-auto" />
               <div className="flex items-start gap-3 text-sm">
-                <MapPin className="text-secondary w-6 h-6" />
+                <MapPin className="text-secondary w-8 h-8" />
                 Gulshan-02: House-12B, Lift-04, Flat-4A, Kamal Attaturk Avenue,
                 Gulshan-02, Dhaka-1212.
               </div>
